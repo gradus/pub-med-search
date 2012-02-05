@@ -12,17 +12,17 @@ $retstart = $_POST['retstart'];
 
 
 ?>
-	
-	<!-- Form -->
-	<h2>Search Pub Med Below</h2>
-  <p> Try narrowing your search terms for more specific results </p>
-  <p> ex. Prograf Inflammatory bowel disease Duke University </p>
-	<form name="search" method="post" action="pub_med.php">
-	<input type="text" name="search_field" size="40">
 
-	<input type="submit" value="Submit">
-	</form>
-    <!-- End Form-->
+<!-- Form -->
+<h2>Search Pub Med Below</h2>
+<p> Try narrowing your search terms for more specific results </p>
+<p> ex. Prograf Inflammatory bowel disease Duke University </p>
+<form name="search" method="post" action="pub_med.php">
+<input type="text" name="search_field" size="40">
+
+<input type="submit" value="Submit">
+</form>
+<!-- End Form-->
 
 <?php
 $utils = "http://www.ncbi.nlm.nih.gov/entrez/eutils";
